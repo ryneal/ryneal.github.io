@@ -35,7 +35,7 @@ content:
         title: Quality Assurance
         sub_title: Skills in relation to delivery quality
         description: |
-          Icecream Sandwiches, Left-shift testing advocation, TDD, BDD (Cucumber), Selenium/Selenide, Karma, JUnit (4/5), K6, JMeter, Gatling, Sonarqube, Codeclimate
+          Icecream Sandwiches, Left-shift testing advocation, Contact Testing (Pact), Observability as the new QA, TDD, BDD (Cucumber), Selenium/Selenide, Karma, JUnit (4/5), K6, JMeter, Gatling, Sonarqube, Codeclimate
       - layout: left
         title: DevOps
         sub_title: Skills in relation to bringing development closer to operations
