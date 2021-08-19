@@ -1,127 +1,235 @@
-# Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
-
-# Content configuration version
 version: 2
-
-# Personal info
 name: Ryan Neal
-title: Principal Software Engineer
+title: Tribe Engineering Lead
 email: ryandavidneal@gmail.com
 website: https://ryneal.github.io
-
-# Dark Mode (true/false/never)
 darkmode: true
-
-# Social links
 twitter_username: agilebanana
 github_username:  ryneal
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
 linkedin_username: ryneal
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
 additional_links: []
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+about_profile_image: /images/profile.png
+about_content: |
+  Hi, my name's Ryan and I'm an engineering lead. As well as development, my talents spread across <a href="https://logz.io/blog/what-devops-is-not/">DevOps</a>, agile coaching and delivery leadership.
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+  At the core of everything I work for, I believe there is no greater success than getting valuable features out to customers.
 
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
+  I love to learn and sharpen my skills, and I am happy to work with most technologies or frameworks as long as they enable good delivery culture. I don't believe in skill silos and work tirelessly to ensure a cross-functional attitude is a core principle of the teams I work with.
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: Engineering leadership
+        sub_title: Building amazing delivery teams
+        description: |
+          Servant leadership, coaching, microservice design patterns, CI/CD design (and culture), positive conflict, effective story breakdown, technical product ownership, tutoring, advocation of [team topologies](https://teamtopologies.com/) and successful engineering team structure
+      - layout: left
+        title: Development
+        sub_title: Skills in relation to software engineering
+        description: |
+          Java, Go, Javascript, Typescript, C#, C++, SASS/CSS, Spring Boot, React, Angular 2, Thymeleaf, REST, GraphQL, gRPC, Bash, Python, Lua
+      - layout: left
+        title: Quality Assurance
+        sub_title: Skills in relation to delivery quality
+        description: |
+          Icecream Sandwiches, Left-shift testing advocation, TDD, BDD (Cucumber), Selenium/Selenide, Karma, JUnit (4/5), K6, JMeter, Gatling, Sonarqube, Codeclimate
+      - layout: left
+        title: DevOps
+        sub_title: Skills in relation to bringing development closer to operations
+        description: |
+          GitOps (FluxCD), AWS, Crossplane, Terraform, Docker, Kubernetes, Istio, Flagger, Envoy, Helm, Kustomize, Jenkins, Jenkins X, Gitlab CI, Github workflows, Tekton, Prometheus, Dynatrace, Elasticsearch, Datadog, Splunk, Harbor
+      - layout: left
+        title: Delivery
+        sub_title: Skills in relation to product delivery
+        description: |
+          Kanban, Scrum, XP, Project management and planning, Jira, Gitlab issues, Github issues, Confluence, Gitlab pages, Research & Development, Architecture & Design (requirements gathering, UML)
+      - layout: left
+        title: Security
+        sub_title: Skills in relation to secure software engineering
+        description: |
+          Secure coding practices & defining standards, penetration testing, OWASP, OAuth2, Open-ID Connect, JWT, DevSecOps advocation
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: BT
+        link: bt.com
+        sub_title: Tribe Engineering Lead
+        caption: March 2019 - Present
+        quote: >
+          Providing engineering leadership and guidance across critical business initiatives
+        description: |
+          I currently work across multiple teams both within my tribe and teams who utilise the capabilities my tribe provides. My main focus are on strategic initiatives and delivery accelerants for the following areas;
+
+          - A digital service platform consisting of Kubernetes with an Istio service mesh residing on AWS, which also includes a plethora of CNCF and OpenSource tooling designed to provide solutions to challenges within the DevOps lifecycle.
+          - Microservice Architectures,including defining engineering good practice and solution architecture with teams.
+          - Enablement team ownership, where I have established a working practice orientated around collaboration with teams with technical challenges within the organisation. We work closely with teams to understand their challenges and curate the solutions into a centralised space for improved organisational knowledge transfer.
+      - layout: left
+        title: Equifax
+        link: equifax.com
+        sub_title: Senior Technical Lead
+        caption: October 2017 - February 2019
+        quote: >
+          Engineering leadership and guidance with a focus on security
+        description: |
+          My main point of focus was design and development of shared services used across the breadth of the EU technology estate. These services had a focus on centralising corporate policies into a larger SOA estate. In order to accomplish this, I worked across the organisation holistically, integrating with a wide arena of stakeholders. I was aided by three teams, of which reported to me and I communicated technical strategy and vision, and facilitated the collaboration to execute it. These shared services include the maintenance and enhancement of shared libraries which are managed in an open source fashion, with myself as a steward of the technology.
+          As part of this work, I endeavoured to pave the way for other delivery teams by establishing common design patterns, agile best practices and proving new technologies. Examples include the establishment of a logging framework which offers flexibility for consumption with an enterprise SIEM/ELK stack, authentication principles based on industry best practice (OAuth2) and utilisation of the Netflix OSS stack to solve application resiliency and support issues.
+      - layout: left
+        title: Hitachi Capital
+        link: hitachicapital.co.uk
+        sub_title: Scrum Master & Developer
+        caption: February 2016 - October 2017
+        quote: >
+          Agile coaching and shaping development
+        description: |
+          Working on commercial finance software for offering credit loans to customers of high-profile retailers. I held a focus in technical leadership, coaching agility, development and security. The tech ecosystem was a Java system, including Hibernate, Struts 2, JSP, Spring Boot and Angular. I have also been a strong evangelist for the improvement of code quality, service decomposition, servant leadership, paired programming and improved testing techniques (inc. TDD & BDD). I have also done a substantial amount of work the the Business Analyst team around story refinement and story pointing.
+          Starting at the organisation I was appointed with a tactical project addressing security issues, where shortly after a team was formed. I fast assumed a leadership role in the team, and also absorbed the Scrum Master role. After completion of the security project, the team was moved onto supporting the retail business stakeholders, where I have been a driving force for decomposing the monolithic legacy application into well engineered micro services, utilising Spring Boot & Cloud, Golang, Angular 2 frontends, containerisation, and test automation using BDD and Cucumber.
+      - layout: left
+        title: Lockheed Martin
+        link: lockheedmartin.com
+        sub_title: Research Engineer & Technical Lead
+        caption: Septmber 2012 - February 2016
+        quote: >
+          From graduate to technical lead
+        description: |
+          My first project was working on the development of an armoured fighting vehicle mission system. Development was in C++ following safety critical deadlines. My greatest accomplishment on this project was a proof of concept which saved the organisation approximately £700k. I also contributed to a large piece of work involving military real-time video standards.
+          Development of multi-touch executive dashboards for the energy market and military operations. This was initially in Visual Basic, but migrated to C# and utilising Bing Maps integration with PostGIS (geospatial extension for Postgres).
+          I was given the opportunity to lead an R&D project which looked at the 3D Visualisation of CAD models as a mechanism for fast prototyping, increasing the speed of customer feedback loops. After scoping the system architecture and working through the procurement process, I developed complex interactive demonstrations for senior
+          Lockheed Martin and MoD stakeholders, largely in Lua with some Java backend services. After a year of managing this R&D effort I was awarded Lockheed Martin's coveted national award for innovation, presented to me by the CEO.
+          Leading a small team in real-time platform-level wargaming simulation and development. The largest technical challenges in this role were around the selection and integration of third party software to make a fully functioning system for military operation wargaming simulations. Interfaces included open and military standards. As an agility evangelist I was able to implement a Scrum methodology for the delivery of the software and hardware systems and their integrations, proving that Scrum is applicable to a larger audience than purely software development. My main duties included architecture, development, project management and stakeholder management & engagement (inc. the CEO).
+      - layout: left
+        title: Staffordshire University
+        link: staffs.ac.uk
+        sub_title: Part-time lecturer & Researcher
+        caption: Septmber 2011 - September 2012
+        quote: >
+          Working through a scholarship
+        description: |
+          After completing my Bachelors degree, and demonstrating advanced knowledge in my field, I was offered a scholarship to support my Master education. As part of the scholarship I was expected to fulfil the following roles;
+          - Producing and presenting lecture presentations on the topic of digital forensics
+          - Conducting tutorials for introductory course modules (java, security, forensics)
+          - HND final year product supervision for 16 students (8 of which secondary assessor)
+          - Research and feasibility assessment for the universities commercial forensics department
+      - layout: left
+        title: Hewlett Packard
+        link: hp.com
+        sub_title: Software Engineering Intern
+        caption: June 2009 - June 2010
+        quote: >
+          Ich habe ein Praktikum bei HP in Deutschland gemacht
+        description: |
+          Working and living in Stuttgart, Germany
+          Support of commercial multi-platform server monitoring software. Development of a
+          multi-routing component for system messages. Test server management (Windows,
+          Solaris, HPUX, AIX, Linux, Redhat). Software testing and debugging. Communicating
+          with end-users. Software build & release. Development of a server checkout system to
+          enable testing productivity. SQL database queries and backup management.
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Chaos Arcade
+        link: github.com/ryneal/chaos-arcade
+        additional_links:
+          - title: ryneal/chaos-arcade
+            icon: fab fa-github
+            url: github.com/ryneal/chaos-arcade
+        quote: >
+          A fun project used to demo chaos engineering concepts in Kubernetes
+        description: |
+          I created this project to demonstrate the idea of chaos engineering using some well-known arcade games. It includes the container image and helm chart required to deploy on to any Kubernetes cluster.
+      - layout: left
+        title: Hexagonal Domain
+        link: github.com/ryneal/hexagonal-domain
+        additional_links:
+          - title: ryneal/hexagonal-domain
+            icon: fab fa-github
+            url: github.com/ryneal/hexagonal-domain
+        quote: >
+          A small Java library to support delivering micro services with an hexagonal architecture
+        description: |
+          This library provides simple utilities and abstractions for common engineering patterns used when developing a domain layer in hexagonal architectures, such as CRUD and Adaptiob.
+      - layout: left
+        title: Jenkins X
+        link: github.com/jenkins-x/go-scm
+        additional_links:
+          - title: github.com/jenkins-x/go-scm
+            icon: fab fa-github
+            url: github.com/jenkins-x/go-scm
+        quote: >
+          Contributed towards Bitbucket server functionality
+        description: |
+          Delivered initial support for Bitbucket server in JX2, fixing several bugs and providing implementations for missing functionality.
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Staffordshire University
+        caption: 2011 - 2012
+        sub_title: MRes Computing Science
+        quote: >
+          Distinction
+        description: |
+          Placeholder summary of research
+      - layout: left
+        title: Staffordshire University
+        caption: 2007 - 2011
+        sub_title: BSc(Hons) International Forensic Computing
+        quote: >
+          First class
+        description: |
+          Placeholder summary of degree
+  - title: Awards & Achievements
+    layout: list
+    content:
+      - layout: left
+        title: BT CEO 2020 Q2 Recognition
+        quote: >
+          For driving an at-risk delivery to completion three months early whilst increasing delivery speed by 400%
+      - layout: left
+        title: Nifty Ninja
+        quote: >
+          BT monthly recognition award
+      - layout: left
+        title: Metrics of the trade
+        quote: >
+          Speaking an Agile Leeds about measuring agile delivery
+      - layout: left
+        title: Lockheed Martin Vector award for Innovation 2014
+        quote: >
+          Annual national award, awarded for the management and production of a rapid-prototyping 3D visualisation capability.
+      - layout: left
+        title: Forensic image recognition using a novel image fingerprinting and hashing technique
+        quote: >
+          Research paper published at 6th IEEE SKIMA at Chengdu, China in 2012
+      - layout: left
+        title: iPhone geolocation
+        quote: >
+          Noted global press coverage of my iPhone geolocation forensics research
+      - layout: left
+        title: iPhone message recovery
+        quote: >
+          Research into recovering deleted iPhone text messages supported the Philadelphia state police department.
+  - title: A Little More About Me
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+        description: |
+          Alongside my interests in software engineering, DevOps & agility some of my other interests are:
+          - Travel
+          - Rubik's Cubes & Puzzles
+          - Cooking & Baking
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
+          <div align="center">
+          <img src="/images/cook.jpg" alt="The Iron Chef/Dev" />
+          </div>
+footer_show_references: false
 remote_theme: sproogen/resume-theme
-
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
  - jekyll-seo-tag
