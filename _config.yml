@@ -45,7 +45,7 @@ content:
         title: Delivery
         sub_title: Skills in relation to product delivery
         description: |
-          Kanban, Scrum, XP, Project management and planning, Jira, Gitlab issues, Github issues, Confluence, Gitlab pages, Research & Development, Architecture & Design (requirements gathering, UML)
+          Stakeholder management, Kanban, Scrum, XP, Project management and planning, Jira, Gitlab issues, Github issues, Confluence, Gitlab pages, Research & Development, Architecture & Design (requirements gathering, UML)
       - layout: left
         title: Security
         sub_title: Skills in relation to secure software engineering
