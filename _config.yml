@@ -186,6 +186,10 @@ content:
     layout: list
     content:
       - layout: left
+        title: How GitOps made us better at DevOps
+        quote: >
+          Speaking at DevLab21 (hosted by Hackajob) on behalf of BT about how using GitOps improved DevOps delivery and culture
+      - layout: left
         title: BT CEO 2020 Q2 Recognition
         quote: >
           For driving an at-risk delivery to completion three months early whilst increasing delivery speed by 400%
