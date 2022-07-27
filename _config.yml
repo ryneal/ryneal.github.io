@@ -55,10 +55,27 @@ content:
     layout: list
     content:
       - layout: left
+        title: Jugo
+        link: jugo.io
+        sub_title: Senior Principal Engineer
+        caption: January 2022 - Present
+        quote: >
+          Ownership of API's and Platform, TPO for Platform Team, Line management
+        description: |
+          Jugo is a digital events SaaS startup. By blending game technology with AWS we have been able to create an immersive fully remote experience. My key responsibilities include;
+
+          - Overall responsibility for all APIs and AWS Platform
+          - Line management for backend and API engineers
+          - Coaching and talent growth
+          - Technical product ownership for platform product
+          - Driving engineering strategy for APIs and Platform
+          - Providing additional engineering capacity to strategic product iterations
+          - Upholding quality standards
+      - layout: left
         title: BT
         link: bt.com
         sub_title: Tribe Engineering Lead
-        caption: March 2019 - Present
+        caption: March 2019 - January 2022
         quote: >
           Providing engineering leadership and guidance across critical business initiatives
         description: |
